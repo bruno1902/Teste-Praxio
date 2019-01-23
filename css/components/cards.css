@@ -1,0 +1,137 @@
+.cards{
+    height: 442px;
+    color: #585859;
+    margin-left: 90px;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.cards > .card{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px 2px 20px 1px rgb(199, 199, 199);
+}
+
+.cards > .-first{  
+    height: 400px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.cards > .-second{
+    height: 480px;
+    width: 300px;
+    margin-left: 440px;
+    transform: translateY(-40px);
+    z-index: 1;
+}
+
+.cards > .-third{
+    margin-left:730px;
+    line-height: 38px;
+}
+
+.cardtitle{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #733FFF;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.cardtitle.-second{   
+    margin-top: 32px;
+}
+
+.cardtitle.-third{   
+    margin-top: 32px;
+}
+
+
+.bgc_card.-first{
+    height: 120px;
+    width:115px;
+    margin-left: 150px;
+    margin-top: 90px;
+    transform: translate(-50%,-50%);
+}
+
+.card > .bgc_card.-second{
+    height: 166px;
+    width:163px;
+    margin-left: 150px;
+    margin-top: 130px;
+    transform: translate(-50%,-50%);
+}
+
+.card.-first > .bgc_card.-second{
+    height: 164px;
+    width: 166px;
+}
+
+.card.-first > .bgc_card.-third{
+    height: 120px;
+    width:115px;
+    margin-left: 150px;
+    margin-top: 90px;
+    transform: translate(-50%,-50%);
+}
+
+.card.-first > .fingerprint.-first{
+    position: absolute;
+    top: 120px;
+    left: 125px;
+    height: 50px;
+    width: 50px;
+}
+
+.card.-second > .fingerprint.-second{
+   position: relative;
+   height: 50px;
+   width: 50;
+   top: -190px;
+   left: 125px;
+   
+}
+
+.card.-third > .fingerprint.-third{
+    position: absolute;
+    top: 135px;
+    left: 125px;
+    height: 50px;
+    width: 50px;
+}
+
+.card.-first > .cardsubtitle{
+    font-size: 20px;   
+    font-family: 'Mukta', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.card > .cardsubtitle.-second{
+    font-size: 20px;   
+    font-family: 'Mukta', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin-top: -100px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.bg{
+    width: 1000px;
+    margin-left: 0px;
+    margin-top: -50px;
+}
+

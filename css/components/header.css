@@ -1,0 +1,80 @@
+
+.header-wrap{
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.header-wrap > .header-logo {
+    height:64px;
+    width: 64px;
+    position: absolute;
+}
+
+.header-wrap > .header-bgc{    
+    height: 933px;
+    width: 1063px;
+    margin-left: 170px;
+    position: absolute;
+    top: -100px;
+    overflow: hidden;
+}
+
+.header-wrap > .header-h1{
+    position: relative;
+    top: 150px;
+    margin-left: 540px;
+    transform: translateX(-20%);    
+}
+
+.header-wrap > .header-h2{
+    box-sizing: content-box;
+    position: relative;
+    top: 168px;
+    margin-left: 560px;
+    font-size: 20px;   
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    height: 74px;
+    width: 450px;
+    letter-spacing: 1px;
+    text-align: center;  
+    line-height: 35px;
+    transform: translateX(-20%);
+}
+
+.header-wrap > .header.-button{  
+    box-sizing: border-box; 
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    margin-left: 460px;   
+    font-size: 20px;   
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    height: 38px;
+    width: 230px;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 30px;
+    transform: translateX(10%); 
+    text-align: center;
+    padding-top: 7px;
+}
+
+.header-wrap > .header-logout{  
+    box-sizing: border-box; 
+    float: right;
+    transform: translateY(-350px);
+    font-size: 20px;   
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    color:#585859;
+    border: 2px solid #EAEAEC;
+    border-radius: 30px;
+    height: 36px;
+    width: 124px;
+    text-align: center;
+    margin-right: 35px;
+    padding-top: 8px;
+}

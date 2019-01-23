@@ -1,0 +1,96 @@
+.wrap_cadastro{
+    height: 765px;
+    width: 1366px;
+    border: 2px solid #C2C2C2;
+    overflow: hidden;
+
+}
+
+.form_wrap{
+    height: 464px;
+    width: 758px;
+    margin-left: 326px;
+}
+
+.form{
+    box-sizing: content-box;
+    font-family:'Mukta', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.-h1_form{
+    height: 48px;
+    width: 121px;
+    line-height: 48px;
+}
+
+.-h2_form{
+    display: inline-block;
+    height: 27px;
+    width: 150px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 32px;
+}
+
+.-adress{
+    display: inline-block;
+    align-content: baseline;
+    font-size: 16px;
+    margin-left: 245px;
+}
+
+.form_group-left{
+    box-sizing: content-box;
+    width: 362px;
+    margin-left: -2px;
+}
+
+.form_group-right{
+    box-sizing: content-box;
+    width: 362px;
+    float: right;
+    margin-top: -202px;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid #C2C2C2;
+    color: #C2C2C2;
+}
+
+.-large{
+    width: 335px;
+    height: 42px;
+    padding-left: 24px;
+    margin-top: 6px;
+}
+
+.-medium{
+    width: 152px;
+    height: 42px;
+    margin-top: 6px;
+    padding-left: 24px;
+}
+
+.-short{
+    height: 42px;
+    width: 99px;
+    padding-left: 24px;
+}
+
+.-logradouro{
+    margin-bottom: 6px;
+}
+
+.form.-login{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 255px;
+    font-size: 16px;
+    color: #0077C5;
+
+}
+
+
